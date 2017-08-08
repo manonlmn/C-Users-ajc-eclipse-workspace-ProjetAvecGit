@@ -11,4 +11,9 @@ import javax.swing.JFrame;
  */
 public class MainWindow extends JFrame {
 
+	Panel1 panelHaut= new Panel1();
+	Panel2 panelMilieu= new Panel2();
+	Panel3 panelBas= new Panel3();
+	Panel4 panelGauche= new Panel4();
+
 }
