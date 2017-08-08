@@ -9,9 +9,9 @@ public class Panel2 extends JPanel {
 
 	private JPanel panel1 = new JPanel();
 	private JPanel panel2 = new JPanel();
-	private JLabel CartePot = new JLabel("Carte dans le pot : ");
+	private JLabel CartePot = new JLabel("Cartes dans le pot gagnant: ");
 	
-	private JLabel Couleur = new JLabel("Couleur : ");
+	private JLabel Couleur = new JLabel("Couleur :");
 	
 	private JButton CouleurPique  = new JButton("Pique");
 	private JButton CouleurCoeur = new JButton("Coeur");
@@ -19,7 +19,7 @@ public class Panel2 extends JPanel {
 	private JButton CouleurTrefle = new JButton("Trefle");
 	
 	
-	private JLabel Carte = new JLabel("Carte ");
+	private JLabel Carte = new JLabel("Cartes :");
 	
 	private JButton CarteSept  = new JButton("7");
 	private JButton CarteHuit  = new JButton("8");
@@ -43,6 +43,16 @@ public class Panel2 extends JPanel {
 		panel1.add(CouleurTrefle);
 		panel1.add(CouleurCarreau);
 		
+		panel2.setLayout(new GridLayout(1,9));
+		panel2.add(Carte);
+		panel2.add(CarteSept);
+		panel2.add(CarteHuit);
+		panel2.add(CarteNeuf);
+		panel2.add(CarteDix);
+		panel2.add(CarteValet);
+		panel2.add(CarteDame);
+		panel2.add(CarteRoi);
+		panel2.add(CarteAs);
 	}
 	
 	public Panel2() {
