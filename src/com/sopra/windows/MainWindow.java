@@ -12,15 +12,16 @@ import java.awt.*;
  */
 public class MainWindow extends JFrame {
 
-	Panel1 panelHaut= new Panel1(); //ajout automatique des boutons dans panel1
+	Panel1 panelHaut= new Panel1(); //ajout automatique des boutons dans panel1 via le constructeur
 	Panel2 panelMilieu= new Panel2();
 	Panel3 panelBas= new Panel3();
 	Panel4 panelGauche= new Panel4();
+	//creation de la checkbox
 	private JPanel panelDroit = new JPanel();
 	
 	
 	public void initialize() {
-
+		//ajouter la checkbox au bon endroit
 		this.setLayout(new FlowLayout());
 		this.add(this.panelGauche);
 		this.add(this.panelDroit);
