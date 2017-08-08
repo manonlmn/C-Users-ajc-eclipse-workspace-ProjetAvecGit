@@ -1,9 +1,7 @@
 package com.sopra.windows;
 
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel; 
 import java.awt.*;
+import javax.swing.*;;
 
 public class Panel2 extends JPanel {
 

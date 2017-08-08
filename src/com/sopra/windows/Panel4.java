@@ -1,9 +1,7 @@
 package com.sopra.windows;
 
-import java.awt.FlowLayout;
-
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+import java.awt.*;
+import javax.swing.*;
 
 public class Panel4 extends JPanel {
 

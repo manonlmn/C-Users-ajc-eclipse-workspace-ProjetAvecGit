@@ -3,9 +3,6 @@
  */
 package com.sopra.windows;
 
-import javax.swing.JCheckBox;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 import java.awt.*;
 import javax.swing.*;
 /**
