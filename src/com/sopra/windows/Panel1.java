@@ -9,10 +9,10 @@ public class Panel1 extends JPanel {
 	
 	private JLabel Atout = new JLabel("Atout : ");
 	
-	private JButton AtoutPique = new JButton("AtoutPique");
-	private JButton AtoutCoeur = new JButton("AtoutCoeur");
-	private JButton AtoutCarreau = new JButton("AtoutCarreau");
-	private JButton AtoutTrefle = new JButton("AtoutTrefle");
+	private JButton AtoutPique = new JButton("Pique");
+	private JButton AtoutCoeur = new JButton("Coeur");
+	private JButton AtoutCarreau = new JButton("Carreau");
+	private JButton AtoutTrefle = new JButton("Trefle");
 	
 	public void initialize() {
 		this.setLayout(new FlowLayout());
