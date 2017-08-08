@@ -15,5 +15,9 @@ public class MainWindow extends JFrame {
 	Panel2 panelMilieu= new Panel2();
 	Panel3 panelBas= new Panel3();
 	Panel4 panelGauche= new Panel4();
+	
+	public void initialize() {
+		
+	}
 
 }
