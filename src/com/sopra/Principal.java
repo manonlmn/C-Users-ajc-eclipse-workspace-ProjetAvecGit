@@ -8,5 +8,4 @@ public class Principal {
 		MainWindow Fenetre = new MainWindow();
 		Fenetre.initialize();
 	}
-
 }
